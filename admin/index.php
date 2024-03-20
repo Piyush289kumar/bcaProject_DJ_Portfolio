@@ -2,7 +2,7 @@
 include("config.php");
 session_start();
 if (isset($_SESSION['username'])) {
-    echo "<script>window.location.href='$hostname/admin/notification-read.php'</script>";
+    echo "<script>window.location.href='$hostname/admin/post-read.php'</script>";
     // header("Location:{$hostname}/admin/post.php");
 }
 ?>
@@ -13,11 +13,11 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="../img/logo/graduation-cap.png" />
+    <link rel="icon" href="../img/music.png" />
     <title>ADMIN | Login</title>
-    <link rel="stylesheet" href="../css/bootstrap.min_.css" />
+    <link rel="stylesheet" href="../css/bootstrap.minDJ.css" />
     <link rel="stylesheet" href="../css/font-awesome.css">
-    <link rel="stylesheet" href="../css/adminstyle_centerI.css">
+    <link rel="stylesheet" href="../css/adminstyle_centerDJ.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@ if (isset($_SESSION['username'])) {
             <div class="row">
                 <div class="col-md-offset-4 col-md-4">
                     <!-- logo -->
-                    <img class="logo" src="../img/logo/logo.png" alt="Shree Bala Ji Gurukul" style="border-radius: 8px;">
+                    <h3 class="heading text-center" style="font-weight:700; background:#5C00CE; padding:12px 24px; border-radius:8px; color:#fff;">DJ Rishab</h3>
                     <!-- logo -->
                     <!-- <img class=" logo" src="images/news.jpg"> -->
                     <h3 class="heading text-center" style="font-weight:700">Login</h3>
@@ -59,7 +59,7 @@ if (isset($_SESSION['username'])) {
                                 $sql_log = "INSERT INTO user_log (user_id, username, user_role, log_date, log_time)
                                 VALUES ('{$user_id}','{$username}','{$userRole}','{$log_date}','{$log_time}')";
                                 if (mysqli_query($conn, $sql_log)) {
-                                    echo "<script>window.location.href='$hostname/admin/login_mailsender.php'</script>";
+                                    echo "<script>window.location.href='$hostname/admin/post-read.php'</script>";
                                 }
                             }
                         } else {

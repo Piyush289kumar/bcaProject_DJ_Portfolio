@@ -8,20 +8,20 @@ if ($_SESSION['user_role'] == 0) {
     <div class="container">
         <div class="row">
             <div class="col-md-10 mb-2">
-                <h5 class="admin-heading">All Gallery Picture</h5>
+                <h5 class="admin-heading">All Event</h5>
             </div>
             <div class="col-md-2">
-                <a class="add-new" href="achievement-insert.php" style="border-radius:16px; margin-bottom:25px">Add
-                    Picture</a>
+                <a class="add-new" href="post-insert.php" style="border-radius:16px; margin-bottom:25px">Add
+                    Event</a>
             </div>
             <div class="col-md-12" style="overflow:scroll">
                 <table class="content-table">
                     <thead>
                         <th>S.No.</th>
-                        <th>Picture</th>
+                        <th>Poster</th>
                         <th>Date</th>
                         <th>Title</th>
-                        <th>Type</th>
+                        <th>Location</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </thead>
@@ -36,7 +36,7 @@ if ($_SESSION['user_role'] == 0) {
                         }
                         $record_limit = 10;
                         $offset = ($page_num_index_by_addbar - 1) * $record_limit;
-                        $sql_show_user = "SELECT * FROM achievement WHERE active_record = 'Yes' ORDER BY atype, aid DESC LIMIT {$offset},{$record_limit}";
+                        $sql_show_user = "SELECT * FROM achievement WHERE active_record = 'Yes' ORDER BY aid DESC LIMIT {$offset},{$record_limit}";
                         $result_sql_show_user = mysqli_query($conn, $sql_show_user) or die("Query Failed!!");
                         if (mysqli_num_rows($result_sql_show_user) > 0) {
                             $serial_num = $offset + 1;
@@ -47,7 +47,7 @@ if ($_SESSION['user_role'] == 0) {
                                         <?php echo ($serial_num); ?>
                                     </td>
                                     <td style="text-align:center;">
-                                        <img src="upload/achievement/<?php echo ($row['aimg']) ?>" alt="Error" style="height: 75px; border-radius:4px">
+                                        <img src="upload/<?php echo ($row['aimg']) ?>" alt="Error" style="height: 75px; border-radius:4px">
                                     </td>
                                     <td>
                                         <?php echo ($row['adate']) ?>
@@ -58,8 +58,8 @@ if ($_SESSION['user_role'] == 0) {
                                     <td>
                                         <?php echo ($row['atype']) ?>
                                     </td>
-                                    <td class='edit'><a href='achievement-update.php?id=<?php echo ($row["aid"]) ?>'><i class='fa fa-edit'></i></a></td>
-                                    <td class='delete'><a href='achievement-delete.php?id=<?php echo ($row["aid"]) ?>'><i class='fa fa-trash'></i></a></td>
+                                    <td class='edit'><a href='post-update.php?id=<?php echo ($row["aid"]) ?>'><i class='fa fa-edit'></i></a></td>
+                                    <td class='delete'><a href='post-delete.php?id=<?php echo ($row["aid"]) ?>'><i class='fa fa-trash'></i></a></td>
                                 </tr>
                         <?php $serial_num++;
                             }
@@ -76,7 +76,7 @@ if ($_SESSION['user_role'] == 0) {
                     $total_page = ceil($total_user_record / $record_limit);
                     echo ("<ul class='pagination admin-pagination'>");
                     if ($page_num_index_by_addbar > 1) {
-                        echo ("<li><a href='achievement-read.php?page_num_index=" . ($page_num_index_by_addbar - 1) . "'>Prev</a></li>");
+                        echo ("<li><a href='post-read.php?page_num_index=" . ($page_num_index_by_addbar - 1) . "'>Prev</a></li>");
                     }
                     for ($i = 1; $i <= $total_page; $i++) {
                         if ($page_num_index_by_addbar == $i) {
@@ -84,10 +84,10 @@ if ($_SESSION['user_role'] == 0) {
                         } else {
                             $active_page = "";
                         }
-                        echo ("<li class=$active_page><a href='achievement-read.php?page_num_index=$i'>$i</a></li>");
+                        echo ("<li class=$active_page><a href='post-read.php?page_num_index=$i'>$i</a></li>");
                     }
                     if ($page_num_index_by_addbar < $total_page) {
-                        echo ("<li><a href='achievement-read.php?page_num_index=" . ($page_num_index_by_addbar + 1) . "'>Next</a></li>");
+                        echo ("<li><a href='post-read.php?page_num_index=" . ($page_num_index_by_addbar + 1) . "'>Next</a></li>");
                     }
                     echo ("</ul>");
                 }

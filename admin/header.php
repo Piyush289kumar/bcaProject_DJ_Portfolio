@@ -59,16 +59,16 @@ switch ($current_page) {
     <title>
         <?php echo ($page_title); ?>
     </title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap.min_.css" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" /> -->
+
+
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom stlylesheet -->
-    <link rel="stylesheet" href="../css/adminstyle_centerI.css">
-    <link rel="shortcut icon" type="x-con" href="../images/VSlogo.png">
-    <link rel="icon" href="../img/logo/graduation-cap.png" />
+    <link rel="stylesheet" href="../css/bootstrap.minDJ.css" />
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/adminstyle_centerDJ.css">
+    <link rel="shortcut icon" type="x-con" href="../img/music.png">
+    <link rel="icon" href="../img/music.png" />
 </head>
 
 <body>
@@ -80,7 +80,7 @@ switch ($current_page) {
             <div class="row logo_cover">
                 <!-- LOGO -->
                 <div class="col-md-3 logo_cover">
-                    <a href="index.php" id="logo"><img src="../images/admin_logo.png" alt="Valmiki Sangam"></a>
+                    <h3 class="heading text-center" style="font-weight:700; background:#5C00CE; padding:12px 24px; border-radius:8px; color:#fff;">DJ Rishab</h3>
                 </div>
                 <!-- /LOGO -->
                 <!-- LOGO-Out -->
@@ -101,39 +101,15 @@ switch ($current_page) {
             <div class="row">
                 <div class="col-md-12">
                     <ul class="admin-menu">
-                        <li>
-                            <a href="notification-read.php">Notification</a>
-                        </li>
-                        <li>
-                            <a href="management-read.php">Management</a>
-                        </li>
-                        <li>
-                            <a href="staff_info-read.php">Staff</a>
-                        </li>
-                        <li>
-                            <a href="mandatory_info-read.php">Mandatory Info</a>
-                        </li>
-                        <li>
-                            <a href="fees-read.php">Fees Structure</a>
-                        </li>
-                        <li>
-                            <a href="pdf-read.php">PDF</a>
-                        </li>
-                        <li>
-                            <a href="achievement-read.php">Gallery</a>
-                        </li>
 
-
-                        <li>
-                            <a href="campus-read.php">Campus & Career</a>
-                        </li>
-                        <!-- <php
-                        if ($_SESSION['user_role'] == 1 || $_SESSION['user_role'] == 0) {
+                        <?php
+                        if ($_SESSION['user_role'] == 1) {
                         ?>
                             <li>
-                                <a href="post.php">post</a>
+                                <a href="post-read.php">Events</a>
                             </li>
-                        <php } ?> -->
+
+                        <?php } ?>
                         <?php
                         if ($_SESSION['user_role'] == 1) {
                         ?>

@@ -48,6 +48,7 @@
                                 <li class="active"><a href="index.php">Home</a></li>
                                 <li><a href="about.php">About</a></li>
                                 <li><a href="contact.php">Contact</a></li>
+                                <li><a href="admin/index.php">C-Panel</a></li>
                             </ul>
                         </nav>
                         <div class="header__right__social">
