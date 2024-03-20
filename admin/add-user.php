@@ -83,7 +83,6 @@ if ($_SESSION['user_role'] == 0 || $_SESSION['user_role'] == 5 || $_SESSION['use
                         <select class="form-control" name="role">
                             <option value="1">Admin</option>
                             <option value="0">Normal User</option>
-                            <option value="5">Astrologiest</option>
                         </select>
                     </div>
                     <div class="form-group">

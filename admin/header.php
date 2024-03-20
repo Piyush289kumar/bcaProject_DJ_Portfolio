@@ -108,6 +108,9 @@ switch ($current_page) {
                             <li>
                                 <a href="post-read.php">Events</a>
                             </li>
+                            <li>
+                                <a href="tracks-read.php">Tracks</a>
+                            </li>
 
                         <?php } ?>
                         <?php

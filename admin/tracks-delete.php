@@ -10,10 +10,10 @@ $user_id_getaddbar = $_GET['id'];
 </script>
 <?php
 
-$sql_delete_user = "UPDATE school_management SET active_record = 'no' WHERE smid = '{$user_id_getaddbar}'";
+$sql_delete_user = "UPDATE tracks SET active_record = 'no' WHERE aid = '{$user_id_getaddbar}'";
 
 if (mysqli_query($conn, $sql_delete_user)) {
-    echo "<script>window.location.href='$hostname/admin/management-read.php'</script>";
+    echo "<script>window.location.href='$hostname/admin/tracks-read.php'</script>";
 } else {
     echo ("<p style='color:red; margin:10px 0;'>Can't Delete the Record.");
 }
