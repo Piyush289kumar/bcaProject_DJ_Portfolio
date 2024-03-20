@@ -7,7 +7,9 @@
     <meta name="keywords" content="DJoz, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DJoz | Template</title>
+    <title>DJ Rishab</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/music.png" />
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,26 +38,17 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10">
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.html">Home</a></li>
-                                <li class="active"><a href="./about.html">About</a></li>
-                                <li><a href="./discography.html">Discography</a></li>
-                                <li><a href="./tours.html">Tours</a></li>
-                                <li><a href="./videos.html">Videos</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li class="active"><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="admin/index.php">C-Panel</a></li>
                             </ul>
                         </nav>
                         <div class="header__right__social">
@@ -78,7 +71,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <a href="index.php"><i class="fa fa-home"></i> Home</a>
                         <span>About</span>
                     </div>
                 </div>
@@ -87,50 +80,7 @@
     </div>
     <!-- Breadcrumb End -->
 
-    <!-- Skills Section Begin -->
-    <section class="skills spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 p-0">
-                    <div class="skills__content">
-                        <div class="section-title">
-                            <h2>DJ Alexandra Rud</h2>
-                            <h1>DJ’s skill</h1>
-                        </div>
-                        <p>DJ Rainflow knows how to move your mind, body and soul by delivering tracks that stand out
-                            from the norm.</p>
-                        <div class="skill__bar__item">
-                            <p>Perform</p>
-                            <div id="bar1" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="95"></span>
-                            </div>
-                        </div>
-                        <div class="skill__bar__item">
-                            <p>Use Midi</p>
-                            <div id="bar2" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="85"></span>
-                            </div>
-                        </div>
-                        <div class="skill__bar__item">
-                            <p>Remix and mash up</p>
-                            <div id="bar3" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="98"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-0">
-                    <div class="skills__video set-bg" data-setbg="img/skill-video.jpg">
-                        <a href="https://www.youtube.com/watch?v=S19UcWdOA-I?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Skills Section End -->
+
 
     <!-- About Section Begin -->
     <section class="about about--page spad">
@@ -144,13 +94,12 @@
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <h2>He heard something that he knew to be music</h2>
+                            <h2>DJ Rishab</h2>
                         </div>
-                        <p>At vero eos et accusamus et iusto odi odgnissimos ducimus qui blanditiis praesentium volup
-                            tatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                            cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi quod
-                            justo pro an.</p>
-                        <img src="img/about/signature.png" alt="">
+                        <p>I knows how to move your mind, body and soul by delivering tracks that stand out
+                            from the norm. As if this impressive succession of high impact, floor-filling bombs wasn't
+                            enough to sustain.</p>
+                        <!-- <img src="img/about/signature.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -158,41 +107,6 @@
     </section>
     <!-- About Section End -->
 
-    <!-- About Pic Begin -->
-    <div class="about-pic">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
-                            <img src="img/about/ap-1.jpg" alt="">
-                            <img src="img/about/ap-2.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
-                            <img src="img/about/ap-3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
-                            <img src="img/about/ap-4.jpg" alt="">
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
-                            <img src="img/about/ap-5.jpg" alt="">
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
-                            <img src="img/about/ap-6.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
-                            <img src="img/about/ap-7.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Pic End -->
 
     <!-- About Services Section Begin -->
     <section class="about-services spad">
@@ -215,7 +129,7 @@
                         </div>
                         <div class="about__services__item__text">
                             <h4>Wedding</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> -->
                         </div>
                     </div>
                 </div>
@@ -228,7 +142,7 @@
                         </div>
                         <div class="about__services__item__text">
                             <h4>Clubs and bar</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> -->
                         </div>
                     </div>
                 </div>
@@ -241,7 +155,7 @@
                         </div>
                         <div class="about__services__item__text">
                             <h4>Corporate events</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> -->
                         </div>
                     </div>
                 </div>
@@ -272,7 +186,9 @@
                 </div>
                 <div class="col-lg-4 offset-lg-1 col-md-6">
                     <div class="footer__social">
-                        <h2>DJoz</h2>
+                        <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
+                        <br>
+                        <br>
                         <div class="footer__social__links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>

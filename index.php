@@ -169,7 +169,7 @@
                     } else {
                         $page_num_index_by_addbar = 1;
                     }
-                    $record_limit = 8;
+                    $record_limit = 7;
                     $offset = ($page_num_index_by_addbar - 1) * $record_limit;
                     $sql_show_user = "SELECT * FROM tracks WHERE active_record = 'Yes' ORDER BY aid DESC LIMIT {$offset},{$record_limit}";
                     $result_sql_show_user = mysqli_query($conn, $sql_show_user) or die("Query Failed!!");
@@ -211,37 +211,37 @@
         </div>
         <div class="row">
 
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="youtube__item">
-                    <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-1.jpg">
-                        <a href="https://www.youtube.com/watch?v=yJg-Y5byMMw?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                    </div>
-                    <div class="youtube__item__text">
-                        <h4>David Guetta Miami Ultra Music Festival 2019</h4>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="youtube__item">
-                    <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
-                        <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+            <!-- PHP CODE -->
+            <?php
+            include("config.php");
+            if (isset($_GET['page_num_index'])) {
+                $page_num_index_by_addbar = $_GET['page_num_index'];
+            } else {
+                $page_num_index_by_addbar = 1;
+            }
+            $record_limit = 6;
+            $offset = ($page_num_index_by_addbar - 1) * $record_limit;
+            $sql_show_user = "SELECT * FROM youtube WHERE active_record = 'Yes' ORDER BY aid DESC LIMIT {$offset},{$record_limit}";
+            $result_sql_show_user = mysqli_query($conn, $sql_show_user) or die("Query Failed!!");
+            if (mysqli_num_rows($result_sql_show_user) > 0) {
+                $serial_num = $offset + 1;
+                while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
+            ?>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="youtube__item">
+                            <div class="youtube__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['img']) ?>">
+                                <a href="<?php echo ($row['link']) ?>" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                            </div>
+                            <div class="youtube__item__text">
+                                <h4><?php echo ($row['atitle']) ?></h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="youtube__item__text">
-                        <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="youtube__item">
-                    <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-3.jpg">
-                        <a href="https://www.youtube.com/watch?v=S19UcWdOA-I?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                    </div>
-                    <div class="youtube__item__text">
-                        <h4>Dimitri Vegas, Steve Aoki & Like Mike’s “3 Are Legend”</h4>
-                    </div>
-                </div>
-            </div>
+
+            <?php }
+            } ?>
         </div>
     </div>
 </section>
