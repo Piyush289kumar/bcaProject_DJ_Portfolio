@@ -155,7 +155,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-between align-items-center">
 
             <div class="col-md-7">
                 <div class="row">
@@ -169,7 +169,7 @@
                     } else {
                         $page_num_index_by_addbar = 1;
                     }
-                    $record_limit = 7;
+                    $record_limit = 6;
                     $offset = ($page_num_index_by_addbar - 1) * $record_limit;
                     $sql_show_user = "SELECT * FROM tracks WHERE active_record = 'Yes' ORDER BY aid DESC LIMIT {$offset},{$record_limit}";
                     $result_sql_show_user = mysqli_query($conn, $sql_show_user) or die("Query Failed!!");
@@ -188,8 +188,6 @@
                     } ?>
                 </div>
             </div>
-
-
             <div class="col-md-5">
                 <img src="img/track-right.jpg" alt="Error" style="border-radius: 8px;">
             </div>
