@@ -102,20 +102,20 @@ switch ($current_page) {
                 <div class="col-md-12">
                     <ul class="admin-menu">
 
+
+                        <li>
+                            <a href="post-read.php">Events</a>
+                        </li>
+
                         <?php
                         if ($_SESSION['user_role'] == 1) {
                         ?>
-                            <li>
-                                <a href="post-read.php">Events</a>
-                            </li>
                             <li>
                                 <a href="tracks-read.php">Tracks</a>
                             </li>
-
-                        <?php } ?>
-                        <?php
-                        if ($_SESSION['user_role'] == 1) {
-                        ?>
+                            <li>
+                                <a href="youtube-read.php">Youtube Links</a>
+                            </li>
                             <li>
                                 <a href="users.php">Users</a>
                             </li>
