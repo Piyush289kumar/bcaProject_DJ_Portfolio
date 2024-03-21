@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2">
                     <div class="header__logo">
-                    <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
+                        <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10">
@@ -52,10 +52,9 @@
                             </ul>
                         </nav>
                         <div class="header__right__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -150,10 +149,9 @@
                         <br>
                         <br>
                         <div class="footer__social__links">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
