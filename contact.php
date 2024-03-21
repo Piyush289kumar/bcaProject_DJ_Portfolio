@@ -82,7 +82,7 @@
     <!-- Map Begin -->
     <div class="map">
         <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd" height="585" style="border:0;" allowfullscreen=""></iframe>
+            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jabalpur+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div>
         </div>
     </div>
     <!-- Map End -->
@@ -96,24 +96,21 @@
                         <div class="section-title">
                             <h2>Contact info</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore.</p>
                         <ul>
                             <li>
                                 <i class="fa fa-map-marker"></i>
                                 <h5>Address</h5>
-                                <p>Los Angeles Gournadi, 1230 Bariasl</p>
+                                <p>Jabalpur (M.P.), India</p>
                             </li>
                             <li>
                                 <i class="fa fa-phone"></i>
-                                <h5>Hotline</h5>
-                                <span>1-677-124-44227</span>
-                                <span>1-688-356-66889</span>
+                                <h5>Phone</h5>
+                                <span>+91 9340747283</span>
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i>
                                 <h5>Email</h5>
-                                <p>Support@gamail.com</p>
+                                <p>djrishab884@gmail.com</p>
                             </li>
                         </ul>
                     </div>
@@ -127,43 +124,35 @@
     <footer class="footer footer--normal spad set-bg" data-setbg="img/footer-bg.png">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-md-6">
                     <div class="footer__address">
                         <ul>
                             <li>
                                 <i class="fa fa-phone"></i>
                                 <p>Phone</p>
-                                <h6>1-677-124-44227</h6>
+                                <h6>+91 9340747283</h6>
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i>
                                 <p>Email</p>
-                                <h6>DJ.Music@gmail.com</h6>
+                                <h6>djrishab884@gmail.com</h6>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="col-md-6">
                     <div class="footer__social">
                         <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
                         <br>
                         <br>
                         <div class="footer__social__links">
-                        <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
                             <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6">
-                    <div class="footer__newslatter">
-                        <h4>Stay With me</h4>
-                        <form action="#">
-                            <input type="text" placeholder="Email">
-                            <button type="submit"><i class="fa fa-send-o"></i></button>
-                        </form>
-                    </div>
-                </div>
+
             </div>
         </div>
     </footer>

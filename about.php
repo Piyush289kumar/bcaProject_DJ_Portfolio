@@ -167,23 +167,23 @@
     <footer class="footer footer--normal spad set-bg" data-setbg="img/footer-bg.png">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-md-6">
                     <div class="footer__address">
-                        <ul>
-                            <li>
-                                <i class="fa fa-phone"></i>
-                                <p>Phone</p>
-                                <h6>1-677-124-44227</h6>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i>
-                                <p>Email</p>
-                                <h6>DJ.Music@gmail.com</h6>
-                            </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <p>Phone</p>
+                            <h6>+91 9340747283</h6>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <p>Email</p>
+                            <h6>djrishab884@gmail.com</h6>
+                        </li>
+                    </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="col-md-6">
                     <div class="footer__social">
                         <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
                         <br>
@@ -193,15 +193,6 @@
                             <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
                             <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6">
-                    <div class="footer__newslatter">
-                        <h4>Stay With me</h4>
-                        <form action="#">
-                            <input type="text" placeholder="Email">
-                            <button type="submit"><i class="fa fa-send-o"></i></button>
-                        </form>
                     </div>
                 </div>
             </div>
