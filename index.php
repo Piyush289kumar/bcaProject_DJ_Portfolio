@@ -231,7 +231,8 @@
 
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="youtube__item">
-                            <div class="youtube__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['img']) ?>">
+                            <div class="youtube__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['img']) ?>"
+                                style='background-image: url("admin/upload/<?php echo ($row['img']) ?>")'>
                                 <a href="<?php echo ($row['link']) ?>" class="play-btn video-popup"><i
                                         class="fa fa-play"></i></a>
                             </div>
