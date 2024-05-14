@@ -18,7 +18,6 @@
     </div>
 </section>
 <!-- Hero Section End -->
-
 <!-- Event Section Begin -->
 <section class="event spad">
     <div class="container">
@@ -31,8 +30,6 @@
         </div>
         <div class="row">
             <div class="event__slider owl-carousel">
-
-
                 <!-- PHP CODE -->
                 <?php
                 include ("config.php");
@@ -49,7 +46,6 @@
                     $serial_num = $offset + 1;
                     while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
                         ?>
-
                         <div class="col-lg-4">
                             <div class="event__item">
                                 <div class="event__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['aimg']) ?>"
@@ -71,7 +67,6 @@
     </div>
 </section>
 <!-- Event Section End -->
-
 <!-- About Section Begin -->
 <section class="about spad">
     <div class="container">
@@ -97,14 +92,12 @@
     </div>
 </section>
 <!-- About Section End -->
-
 <!-- Services Section Begin -->
 <section class="services">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 p-0">
                 <div class="services__left set-bg" data-setbg="img/services/service-left.jpg">
-
                 </div>
             </div>
             <div class="col-lg-6 p-0">
@@ -143,8 +136,6 @@
     </div>
 </section>
 <!-- Services Section End -->
-
-
 <!-- Track Section Begin -->
 <section class="track spad">
     <div class="container">
@@ -157,11 +148,8 @@
             </div>
         </div>
         <div class="row d-flex justify-content-between align-items-center">
-
             <div class="col-md-7">
                 <div class="row">
-
-
                     <!-- PHP CODE -->
                     <?php
                     include ("config.php");
@@ -185,7 +173,6 @@
                                     <audio controls src="admin/upload/<?php echo $row['link']; ?>"></audio>
                                 </div>
                             </div>
-
                         <?php }
                     } ?>
                 </div>
@@ -197,7 +184,6 @@
     </div>
 </section>
 <!-- Track Section End -->
-
 <!-- Youtube Section Begin -->
 <section class="youtube spad">
     <div class="container">
@@ -210,8 +196,6 @@
             </div>
         </div>
         <div class="row">
-
-
             <!-- PHP CODE -->
             <?php
             include ("config.php");
@@ -228,7 +212,6 @@
                 $serial_num = $offset + 1;
                 while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
                     ?>
-
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="youtube__item">
                             <div class="youtube__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['img']) ?>"
@@ -241,19 +224,14 @@
                             </div>
                         </div>
                     </div>
-
                 <?php }
             } ?>
         </div>
     </div>
 </section>
 <!-- Youtube Section End -->
-
 <!-- Countdown Section Begin -->
 <section class="countdown spad set-bg" data-setbg="img/countdown-bg.jpg" style='margin-bottom:300px;'>
-
 </section>
 <!-- Countdown Section End -->
-
-
 <?php include ('footer.php') ?>
