@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php include ('header.php') ?>
 <!-- Hero Section Begin -->
 <section class="hero spad set-bg" data-setbg="img/hero-bg.png">
     <div class="container">
@@ -35,7 +35,7 @@
 
                 <!-- PHP CODE -->
                 <?php
-                include("config.php");
+                include ("config.php");
                 if (isset($_GET['page_num_index'])) {
                     $page_num_index_by_addbar = $_GET['page_num_index'];
                 } else {
@@ -48,25 +48,26 @@
                 if (mysqli_num_rows($result_sql_show_user) > 0) {
                     $serial_num = $offset + 1;
                     while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
-                ?>
+                        ?>
 
                         <div class="col-lg-4">
                             <div class="event__item">
-                                <div class="event__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['aimg']) ?>">
-                                    <div class="tag-date">
-                                        <span> <?php echo ($row['adate']) ?></span>
-                                    </div>
-                                </div>
-                                <div class="event__item__text">
-                                    <h4><?php echo ($row['atitle']) ?></h4>
-                                    <p><i class="fa fa-map-marker"></i> <?php echo ($row['atype']) ?></p>
+                                <div class="event__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['aimg']) ?>"
+                                    style='background-image: url("admin/upload/<?php echo ($row['aimg']) ?>")'></div>>
+                                <div class="tag-date">
+                                    <span> <?php echo ($row['adate']) ?></span>
                                 </div>
                             </div>
+                            <div class="event__item__text">
+                                <h4><?php echo ($row['atitle']) ?></h4>
+                                <p><i class="fa fa-map-marker"></i> <?php echo ($row['atype']) ?></p>
+                            </div>
                         </div>
+                    </div>
                 <?php }
                 } ?>
-            </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- Event Section End -->
@@ -163,7 +164,7 @@
 
                     <!-- PHP CODE -->
                     <?php
-                    include("config.php");
+                    include ("config.php");
                     if (isset($_GET['page_num_index'])) {
                         $page_num_index_by_addbar = $_GET['page_num_index'];
                     } else {
@@ -176,15 +177,16 @@
                     if (mysqli_num_rows($result_sql_show_user) > 0) {
                         $serial_num = $offset + 1;
                         while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
-                    ?>
+                            ?>
                             <div class="col-md-12" style='border-top: 1px solid #5C00CE; padding:12px 2px'>
-                                <div style='display: flex; flex-direction:row;align-items: center; justify-content: space-between; '>
+                                <div
+                                    style='display: flex; flex-direction:row;align-items: center; justify-content: space-between; '>
                                     <h3 style='font-weight:600;'><?php echo $row['atitle']; ?></h3>
                                     <audio controls src="admin/upload/<?php echo $row['link']; ?>"></audio>
                                 </div>
                             </div>
 
-                    <?php }
+                        <?php }
                     } ?>
                 </div>
             </div>
@@ -212,7 +214,7 @@
 
             <!-- PHP CODE -->
             <?php
-            include("config.php");
+            include ("config.php");
             if (isset($_GET['page_num_index'])) {
                 $page_num_index_by_addbar = $_GET['page_num_index'];
             } else {
@@ -225,12 +227,13 @@
             if (mysqli_num_rows($result_sql_show_user) > 0) {
                 $serial_num = $offset + 1;
                 while ($row = mysqli_fetch_assoc($result_sql_show_user)) {
-            ?>
+                    ?>
 
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="youtube__item">
                             <div class="youtube__item__pic set-bg" data-setbg="admin/upload/<?php echo ($row['img']) ?>">
-                                <a href="<?php echo ($row['link']) ?>" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                                <a href="<?php echo ($row['link']) ?>" class="play-btn video-popup"><i
+                                        class="fa fa-play"></i></a>
                             </div>
                             <div class="youtube__item__text">
                                 <h4><?php echo ($row['atitle']) ?></h4>
@@ -238,7 +241,7 @@
                         </div>
                     </div>
 
-            <?php }
+                <?php }
             } ?>
         </div>
     </div>
@@ -252,4 +255,4 @@
 <!-- Countdown Section End -->
 
 
-<?php include('footer.php') ?>
+<?php include ('footer.php') ?>
