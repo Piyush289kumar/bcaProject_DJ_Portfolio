@@ -10,10 +10,8 @@
     <title>DJ Rishab</title>
     <!-- Favicon -->
     <link rel="icon" href="img/music.png" />
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -31,7 +29,6 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
     <!-- Header Section Begin -->
     <header class="header header--normal">
         <div class="container">
@@ -52,9 +49,12 @@
                             </ul>
                         </nav>
                         <div class="header__right__social">
-                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
-                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank'
+                                class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy"
+                                target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,6 @@
         </div>
     </header>
     <!-- Header Section End -->
-
     <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
         <div class="container">
@@ -78,15 +77,16 @@
         </div>
     </div>
     <!-- Breadcrumb End -->
-
     <!-- Map Begin -->
     <div class="map">
         <div class="container">
-            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jabalpur+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div>
+            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jabalpur+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/">gps devices</a></iframe></div>
         </div>
     </div>
     <!-- Map End -->
-
     <!-- Contact Section Begin -->
     <section class="contact spad">
         <div class="container">
@@ -119,7 +119,6 @@
         </div>
     </section>
     <!-- Contact Section End -->
-
     <!-- Footer Section Begin -->
     <footer class="footer footer--normal spad set-bg" data-setbg="img/footer-bg.png">
         <div class="container">
@@ -146,18 +145,19 @@
                         <br>
                         <br>
                         <div class="footer__social__links">
-                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
-                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank'
+                                class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy"
+                                target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
     <!-- Footer Section End -->
-
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -168,7 +168,6 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
     <!-- Music Plugin -->
     <script src="js/jquery.jplayer.min.js"></script>
     <script src="js/jplayerInit.js"></script>
