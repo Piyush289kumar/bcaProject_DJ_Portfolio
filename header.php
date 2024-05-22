@@ -10,10 +10,8 @@
     <title>DJ Rishab</title>
     <!-- Favicon -->
     <link rel="icon" href="img/music.png" />
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -31,7 +29,6 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
     <!-- Header Section Begin -->
     <header class="header">
         <div class="container">
@@ -52,9 +49,12 @@
                             </ul>
                         </nav>
                         <div class="header__right__social">
-                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
-                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank'
+                                class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy"
+                                target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

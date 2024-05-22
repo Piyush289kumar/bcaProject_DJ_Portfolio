@@ -21,21 +21,22 @@
             <div class="col-md-6">
                 <div class="footer__social">
                     <a href="index.php" style='color:#fff; font-size:25px; font-weight:900;'>DJ RISHAB</a>
-                    <br>                    
-                    <br>                                 
+                    <br>
+                    <br>
                     <div class="footer__social__links">
-                    <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank' class="fa fa-youtube-play"></i></a>
-                            <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/rishab.tiwari.184881?mibextid=ZbWKwL" target="_blank"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href='https://www.youtube.com/@djrishabofficalproduction2130' target='_blank'
+                            class="fa fa-youtube-play"></i></a>
+                        <a href="https://www.instagram.com/dj_rishab_offical?igsh=cXQ1MWtxaXZ2ZWxy" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
 <!-- Footer Section End -->
-
 <!-- Js Plugins -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -46,7 +47,6 @@
 <script src="js/jquery.slicknav.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
-
 <!-- Music Plugin -->
 <script src="js/jquery.jplayer.min.js"></script>
 <script src="js/jplayerInit.js"></script>
