@@ -1,8 +1,8 @@
 <?php include "header.php";
-include("config.php");
+include ("config.php");
 if ($_SESSION['user_role'] == 0 || $_SESSION['user_role'] == 5 || $_SESSION['user_role'] == 9) {
     echo "<script>window.location.href='$hostname/admin/'</script>";
-}?>
+} ?>
 <div id="admin-content">
     <div class="container">
         <div class="row">
@@ -35,7 +35,7 @@ if ($_SESSION['user_role'] == 0 || $_SESSION['user_role'] == 5 || $_SESSION['use
                             if (isset($img)) {
                                 $output_img = date("d_M_Y_h_i_sa") . "_" . basename($_FILES['fileToUpload']["name"]) . ".webp";
                                 imagewebp($img, "upload/member/" . $output_img, 15);
-                                include("config.php");
+                                include ("config.php");
                                 $fname = mysqli_real_escape_string($conn, $_POST['fname']);
                                 $lname = mysqli_real_escape_string($conn, $_POST['lname']);
                                 $username = mysqli_real_escape_string($conn, $_POST['user']);
