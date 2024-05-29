@@ -82,9 +82,17 @@
                         <h2>DJ Rishab Tiwari</h2>
                         <h1>About me</h1>
                     </div>
-                    <p>I knows how to move your mind, body and soul by delivering tracks that stand out
-                        from the norm. As if this impressive succession of high impact, floor-filling bombs wasn't
-                        enough to sustain.</p>
+                    <p>DJ RISHAB” Started His Dj’ing Career In Year 2012 when he was 10. He First Became Interested In
+                        The Electronic & Bollywood Music.
+                        His Mission In Life To Bring Positive Vibes To The People Wherever He Plays.
+                        From A Young Age, He Fell In Love With Listening To The Underground Music & Different Genre of
+                        Music.
+                        He Is Techno Influencer ,A Clubbing soul, A Night Life Lover ,Workaholic.
+                        He Explored Himself More To Get Into Freelancing Where He Bagged Most Of The Club’s In M.P.
+                        He Has Honed His Skills By Completing His Own Study & Self Learning About Music Production.
+                        His Skills & Creativity With Music Have Been A Catch Is An Add His Dj’ing Skill & So Has Brought
+                        Him Acclaim In The Music Business.
+                        Techno & Moombahton Music Always Been The Greatest & Biggest Passion.</p>
                     <a href="contact.php" class="primary-btn">CONTACT ME</a>
                 </div>
             </div>
