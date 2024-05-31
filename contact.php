@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="DJoz Template">
@@ -90,7 +91,7 @@
     <section class="contact spad">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-4">
                     <div class="contact__address">
                         <div class="section-title">
                             <h2>Contact info</h2>
@@ -112,6 +113,20 @@
                                 <p>djrishab884@gmail.com</p>
                             </li>
                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="contact__address">
+                        <div class="section-title">
+                            <h2>Contact Form</h2>
+                        </div>
+                        <div>
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSeIv5joSEvqwFVVy9mP7jyJIvHzfHPuciGpxIAWeMa91-jHNw/viewform"
+                                style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1"
+                                marginheight="0px" marginwidth="0px" height="400px" width="100%"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
